@@ -13,6 +13,9 @@
 
 GO TO [RELOAD.PY](https://github.com/Teamsanki/SANKIXD/blob/Master/SANKIXD/plugins/tools/reload.py) THEN CHANGE MY ID NUMBER 
 
+GO TO [cookies folder] 
+And Replace Into Your Cookies if you not chnage then Music Will No play And Bot show Quiery Error Or Music Name Error so please Replace Cookies file.
+
 <p align="center">
   <img src="https://telegra.ph/file/57f72f958f5c347e36783.jpg">
 </p>
