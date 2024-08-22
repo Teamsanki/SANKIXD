@@ -50,12 +50,12 @@ async def init():
         pass
     await SANKI.decorators()
     LOGGER("SANKIXD").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗗𝗔𝗫𝗫☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
+        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝐓𝐄𝐀𝐌 𝐒𝐀𝐍𝐊𝐈☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("SANKIXD").info("𝗦𝗧𝗢𝗣 𝗗𝗔𝗫𝗫 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("SANKIXD").info("𝗦𝗧𝗢𝗣 𝐓𝐄𝐀𝐌 𝐒𝐀𝐍𝐊𝐈🎻 𝗕𝗢𝗧..")
 
 
 if __name__ == "__main__":
