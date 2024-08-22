@@ -5,7 +5,7 @@
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=SANKITEAM&repo=SANKIXD&theme=flag-india)
 
 [![GIF](https://github.com/SANKITEAM/SANKIXD/blob/main/SANKITEAM.gif)](https://github.com/SANKITEAM)
-   [![𝐌𝐑.𝐃𝐀𝐗𝐗](https://github-stats-alpha.vercel.app/api?username=SANKITEAM "MRSANKI")](https://github-stats-alpha.vercel.app/api?username=SANKITEAM "MRSANKI")
+   [![𝐌𝐑.𝐃𝐀𝐗𝐗](https://github-stats-alpha.vercel.app/api?username=SANKITEAM "MRSANKI")](https://github-stats-alpha.vercel.app/api?username=Teamsanki "MRSANKI")
 
 
 
