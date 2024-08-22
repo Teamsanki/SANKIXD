@@ -1,23 +1,23 @@
 import asyncio, os, time, aiohttp
 import aiohttp
 from pyrogram import filters
-from SANKIhub import SANKIhub as papaSANKI
+from sankihub import sankihub as papasanki
 from SANKIXD import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 ###
-@app.on_message(filters.command("SANKIhub"))
-async def SANKIhub(_, message):
-    text = message.text[len("/SANKIhub") :]
-    papaSANKI(f"{text}").save(f"SANKIhub_{message.from_user.id}.png")
-    await message.reply_photo(f"SANKIhub_{message.from_user.id}.png")
-    os.remove(f"SANKIhub_{message.from_user.id}.png")
+@app.on_message(filters.command("sankihub"))
+async def sankihub(_, message):
+    text = message.text[len("/sankihub") :]
+    papasanki(f"{text}").save(f"sankihub_{message.from_user.id}.png")
+    await message.reply_photo(f"sankihub_{message.from_user.id}.png")
+    os.remove(f"sankihub_{message.from_user.id}.png")
 ####
 
 @app.on_message(filters.command(["github", "git"]))
 async def github(_, message):
     if len(message.command) != 2:
-        await message.reply_text("/git SANKITEAM")
+        await message.reply_text("/git Teamsanki")
         return
 
     username = message.text.split(None, 1)[1]
