@@ -12,7 +12,6 @@ beautifulsoup4
 bs4
 cloudscraper
 deepai
-sankihub
 dnspython
 emojis
 ffmpeg-python
