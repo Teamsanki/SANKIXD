@@ -1,0 +1,22 @@
+            - name: Deploy to Deploys.app
+  # You may pin to the exact commit or the version.
+  # uses: deploys-app/deploys-action@e98b7cd8bf21ab2bc20a8dff62475cec25d7a027
+  uses: deploys-app/deploys-action@v1.0.3
+  with:
+    # Project ID
+    project: 
+    # Deploy Location ID
+    location: 
+    # Deployment Name
+    name: 
+    # Docker Image to deploy
+    image: 
+    # Deployment Port
+    port: # optional
+    # Deployment Type
+    type: # optional
+    # Minimum Replica
+    minReplicas: # optional
+    # Maximum Replica
+    maxReplicas: # optional
+          
