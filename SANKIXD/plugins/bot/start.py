@@ -29,13 +29,13 @@ from strings import get_string
 #--------------------------
 
 NEXI_VID = [
-"https://files.catbox.moe/8wwvo9.MP4",
-"https://files.catbox.moe/8wwvo9.MP4",
-"https://files.catbox.moe/8wwvo9.MP4",
-"https://files.catbox.moe/8wwvo9.MP4",
-"https://files.catbox.moe/8wwvo9.MP4",
-"https://files.catbox.moe/8wwvo9.MP4",
-"https://files.catbox.moe/8wwvo9.MP4",
+"https://telegra.ph/file/5a9a513482f4236022cea.mp4",
+"https://telegra.ph/file/5a9a513482f4236022cea.mp4",
+"https://telegra.ph/file/5a9a513482f4236022cea.mp4",
+"https://telegra.ph/file/5a9a513482f4236022cea.mp4",
+"https://telegra.ph/file/5a9a513482f4236022cea.mp4",
+"https://telegra.ph/file/5a9a513482f4236022cea.mp4",
+"https://telegra.ph/file/5a9a513482f4236022cea.mp4",
 
 ]
 
