@@ -35,7 +35,7 @@ async def join_watcher(_, message):
                 f"⦿ 𝐀𝐝𝐝𝐞𝐝 𝐁𝐲 ➺ {message.from_user.mention}"
             )
             await app.send_photo(LOG_GROUP_ID, photo=random.choice(photo), caption=msg, reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton(f"⦿ 𝐔𝐒𝐄𝐑 𝐈𝐃 ➺ ", "{message.from_user.mention}")]
+                [InlineKeyboardButton(f"⦿ 𝐔𝐒𝐄𝐑 𝐈𝐃 ➺ ", url=f"{message.from_user.mention}")]
             ]))
 
 @app.on_message(filters.left_chat_member)
