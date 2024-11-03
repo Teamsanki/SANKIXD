@@ -9,17 +9,17 @@ async def play_logs(message, streamtype):
     if await is_on_off(2):
         logger_text = f"""
 <b>{app.mention} ᴘʟᴀʏ ʟᴏɢ</b>
-
 <b>⦿ 𝐂𝐡𝐚𝐭 𝐈𝐃 ➺ :</b> <code>{message.chat.id}</code>
 <b>⦿ 𝐂𝐡𝐚𝐭 𝐍𝐚𝐦𝐞 ➺ :</b> {message.chat.title}
 <b>⦿ 𝐂𝐡𝐚𝐭 𝐋𝐢𝐧𝐤 ➺ :</b> @{message.chat.username}
 
-<b>⦿ 𝐔𝐒𝐄𝐑 𝐃𝐄𝐓𝐀𝐈𝐋𝐒
+<b>𝐔𝐒𝐄𝐑 𝐃𝐄𝐓𝐀𝐈𝐋𝐒 </b>
 <b>⦿ 𝐈𝐝 ➺ :</b> <code>{message.from_user.id}</code>
 <b>⦿ 𝐔𝐬𝐞𝐫 ➺ :</b> {message.from_user.mention}
 <b>⦿ 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞 ➺ :</b> @{message.from_user.username}
 
-<b>⦿ 𝐒𝐞𝐚𝐫𝐜𝐡𝐞𝐝 ➺ :</b> {message.text.split(None, 1)[1]}
+<b>𝐒𝐓𝐑𝐄𝐀𝐌 𝐓𝐘𝐏𝐄 </b>
+<b>⦿ {message.from_user.mention} 𝐒𝐞𝐚𝐫𝐜𝐡𝐞𝐝 ➺ :</b> {message.text.split(None, 1)[1]}
 <b>⦿ 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 ➺ :</b> {streamtype}"""
         if message.chat.id != LOGGER_ID:
             try:
