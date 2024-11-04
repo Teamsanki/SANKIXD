@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH", "a95990848f2b93b8131a4a7491d97092")
 
 EVAL = list(map(int, getenv("EVAL", "7759282826").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "7616915021:AAEjycdzrGNQV537AmemlBpHIUSP6vfbrco")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","TSGCODER")
 # --------------------------------------------------------
@@ -116,7 +116,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQF5g1cALqEICMVLUQ7IqTKYUUME_pnEUtONpIaMqIN-J2gKG_RoKwf34IhIPFOKeUY7kmS4-CtU2sNbuxcNQlRSw6Mem5fjjq0zbTnlYbc5foS3NmWG-_Kshy3TwYJDbZpBMDHnKJ9o8CarLugeOBh20r9JqIGR8KdlOC53BKuwC9ChL2O8Urgsj5smbegVc2Gq6zopJY5_NROIiMPBbWxugcQhGDt94L2xlIGnY1JGCK6ptgV17mFXLkFQwf2A9CS3VeMbOCscGASM4w4ytBP2vA7aYBDtIhLR5CPqwEvRVkOO2QYiDZdgswnSnu_u9GOARmKvLsGhNpct5rKxit0KHtPVewAAAAG3HrMYAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
