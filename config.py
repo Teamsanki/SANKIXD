@@ -9,26 +9,26 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "24740695"))
+API_HASH = getenv("API_HASH", "a95990848f2b93b8131a4a7491d97092")
 
-EVAL = list(map(int, getenv("EVAL", "7447102240").split()))
+EVAL = list(map(int, getenv("EVAL", "7759282826").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7616915021:AAEjycdzrGNQV537AmemlBpHIUSP6vfbrco")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","Ownergit")
+OWNER_USERNAME = getenv("OWNER_USERNAME","TSGCODER")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "NexikoBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "SANKI_MUSIC_AI_BOT")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "Nexiko")
+BOT_NAME = getenv("BOT_NAME" , "SANKIXD")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
+ASSUSERNAME = getenv("ASSUSERNAME" , "TSGASSITANT")
 # ---------------------------------------------------------
 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://SANKIXD:SANKIXD@cluster0.dgogcjs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -37,10 +37,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002237336934))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002100433415"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7427691214))
+OWNER_ID = int(getenv("OWNER_ID", "7759282826"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -116,7 +116,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQF5g1cALqEICMVLUQ7IqTKYUUME_pnEUtONpIaMqIN-J2gKG_RoKwf34IhIPFOKeUY7kmS4-CtU2sNbuxcNQlRSw6Mem5fjjq0zbTnlYbc5foS3NmWG-_Kshy3TwYJDbZpBMDHnKJ9o8CarLugeOBh20r9JqIGR8KdlOC53BKuwC9ChL2O8Urgsj5smbegVc2Gq6zopJY5_NROIiMPBbWxugcQhGDt94L2xlIGnY1JGCK6ptgV17mFXLkFQwf2A9CS3VeMbOCscGASM4w4ytBP2vA7aYBDtIhLR5CPqwEvRVkOO2QYiDZdgswnSnu_u9GOARmKvLsGhNpct5rKxit0KHtPVewAAAAG3HrMYAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
