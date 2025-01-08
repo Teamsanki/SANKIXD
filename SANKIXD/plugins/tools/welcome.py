@@ -46,7 +46,7 @@ def circle(pfp, size=(500, 500)):
 
 
 def welcomepic(pic, user, chatname, id, uname):
-    background = Image.open("SANKIXD/assets/wel2.png")
+    background = Image.open("SANKIXD/assets/tsanki.png")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp)
     pfp = pfp.resize((1157, 1158))
@@ -77,7 +77,7 @@ async def greet_group(_, member: ChatMemberUpdated):
             user.photo.big_file_id, file_name=f"pp{user.id}.png"
         )
     except AttributeError:
-        pic = "SANKIXD/assets/SANKIXD/assets/wel2.png"
+        pic = "SANKIXD/assets/SANKIXD/assets/tsanki.png"
     if (temp.MELCOW).get(f"welcome-{member.chat.id}") is not None:
         try:
             await temp.MELCOW[f"welcome-{member.chat.id}"].delete()
@@ -98,7 +98,7 @@ Wᴇʟᴄᴏᴍᴇ Tᴏ {member.chat.title}
   Usᴇʀɴᴀᴍᴇ ✧ @{user.username}
 ╰───── • ◆ • ─────╯
 """,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/ll_STRANGER_MUSIC_II_BOT?startgroup=true")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/SANKI_MUSIC_XD_BOT?startgroup=true")]])
         )
     except Exception as e:
         LOGGER.error(e)
